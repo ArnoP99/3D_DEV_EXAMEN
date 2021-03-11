@@ -5,10 +5,17 @@ using UnityEngine.AI;
 
 public class PatrolAI : MonoBehaviour
 {
-
+    public float FollowDistance;
+    public NavMeshAgent patroler;
+    public Transform Player;
     public Transform[] points;
+    public Collider box;
+
     private int destPoint = 0;
     private NavMeshAgent agent;
+    private int currentControlPointIndex = 0;
+
+
 
 
     void Start()
@@ -18,32 +25,62 @@ public class PatrolAI : MonoBehaviour
         // Disabling auto-braking allows for continuous movement
         // between points (ie, the agent doesn't slow down as it
         // approaches a destination point).
-        agent.autoBraking = false;
+        agent.autoBraking = true;
 
         GotoNextPoint();
     }
 
 
-    void GotoNextPoint()
-    {
-        // Returns if no points have been set up
-        if (points.Length == 0)
-            return;
-
-        // Set the agent to go to the currently selected destination.
-        agent.destination = points[destPoint].position;
-
-        // Choose the next point in the array as the destination,
-        // cycling to the start if necessary.
-        destPoint = (destPoint + 1) % points.Length;
-    }
+ 
 
 
     void Update()
     {
-        // Choose the next destination point when the agent gets
-        // close to the current one.
-        if (!agent.pathPending && agent.remainingDistance < 0.5f)
-            GotoNextPoint();
+
+        if (agent.enabled)
+        {
+            float dist = Vector3.Distance(Player.transform.position, this.transform.position);
+
+            bool patrol = false;
+            bool follow = (dist < FollowDistance);
+
+
+            if (follow)
+            {
+                agent.SetDestination(Player.transform.position);
+            }
+
+            patrol = !follow && points.Length > 0;
+
+
+            if (patrol)
+            {
+                if (!agent.pathPending && agent.remainingDistance < 0.5f)
+                    GotoNextPoint();
+
+            }
+
+        }
+
+
+
+
     }
+
+
+    void GotoNextPoint()
+    {
+
+
+        if (points.Length > 0)
+        {
+            agent.destination = points[currentControlPointIndex].position;
+
+            currentControlPointIndex++;
+            currentControlPointIndex %= points.Length;
+        }
+
+    }
+
+
 }
