@@ -10,13 +10,8 @@ public class PatrolAI : MonoBehaviour
     public Transform Player;
     public Transform[] points;
     public Collider box;
-
     private int destPoint = 0;
     private NavMeshAgent agent;
-    private int currentControlPointIndex = 0;
-
-
-
 
     void Start()
     {
@@ -30,13 +25,8 @@ public class PatrolAI : MonoBehaviour
         GotoNextPoint();
     }
 
-
- 
-
-
     void Update()
     {
-
         if (agent.enabled)
         {
             float dist = Vector3.Distance(Player.transform.position, this.transform.position);
@@ -49,7 +39,6 @@ public class PatrolAI : MonoBehaviour
             {
                 agent.SetDestination(Player.transform.position);
             }
-
             patrol = !follow && points.Length > 0;
 
 
@@ -57,30 +46,17 @@ public class PatrolAI : MonoBehaviour
             {
                 if (!agent.pathPending && agent.remainingDistance < 0.5f)
                     GotoNextPoint();
-
             }
-
         }
-
-
-
-
     }
 
 
     void GotoNextPoint()
     {
-
-
         if (points.Length > 0)
         {
-            agent.destination = points[currentControlPointIndex].position;
+            agent.destination = points[Random.Range(0, 43)].position;
 
-            currentControlPointIndex++;
-            currentControlPointIndex %= points.Length;
         }
-
     }
-
-
 }
