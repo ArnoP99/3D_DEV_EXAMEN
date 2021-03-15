@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.804; Version 2004; 64bit' Language: 'en' Physical Memory: 16336 MB
+OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'nl' Physical Memory: 16276 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,159 +11,115 @@ C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/pauwe/Documents/3D_DEV_EXAMEN/3D_DEV_GAME
+C:/Users/arnop/UnityProjects/3D_DEV_EXAMEN/3D_DEV_GAME
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59475
-Successfully changed project path to: C:/Users/pauwe/Documents/3D_DEV_EXAMEN/3D_DEV_GAME
-C:/Users/pauwe/Documents/3D_DEV_EXAMEN/3D_DEV_GAME
+57333
+Successfully changed project path to: C:/Users/arnop/UnityProjects/3D_DEV_EXAMEN/3D_DEV_GAME
+C:/Users/arnop/UnityProjects/3D_DEV_EXAMEN/3D_DEV_GAME
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 88.19 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 1.25 ms.
+Refreshing native plugins compatible for Editor in 106.04 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.12 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/pauwe/Documents/3D_DEV_EXAMEN/3D_DEV_GAME/Assets
+[Subsystems] Discovering subsystems at path C:/Users/arnop/UnityProjects/3D_DEV_EXAMEN/3D_DEV_GAME/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   
-    VRAM:     8088 MB
-    Driver:   27.21.14.6079
+    VRAM:     1979 MB
+    Driver:   27.21.14.6172
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001606 seconds.
+Registered in 0.002356 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.70 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 109.51 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.444 seconds
+- Completed reload, in  3.269 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001975 seconds.
+Registered in 0.003426 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.84 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 94.21 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
-[XR] OculusXRPlugin: registering subsystems
-[XR] Unable to register display lifecyle provider: [1]
-[XR] Oculus Input lifecycle provider registered.
-[XR] Unable to register input lifecyle provider: [1]
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  1.799 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2643 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.1 MB.
-System memory in use after: 130.0 MB.
+Unloading 2644 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.3 MB.
+System memory in use after: 131.2 MB.
 
-Unloading 127 unused Assets to reduce memory usage. Loaded Objects now: 3070.
-Total: 2.738300 ms (FindLiveObjects: 0.323300 ms CreateObjectMapping: 0.085000 ms MarkObjects: 1.974600 ms  DeleteObjects: 0.354300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Oculus/Avatar
-  artifactKey: Guid(5523ea97fb4412e4da75a5061e4f7a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Avatar using Guid(5523ea97fb4412e4da75a5061e4f7a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e724372d7aef9efcb36d68e96f6f9a89') in 0.011849 seconds
-  Import took 0.015877 seconds .
+Unloading 126 unused Assets to reduce memory usage. Loaded Objects now: 3077.
+Total: 5.790900 ms (FindLiveObjects: 0.938700 ms CreateObjectMapping: 0.345700 ms MarkObjects: 3.696500 ms  DeleteObjects: 0.807500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000659 seconds.
+  path: Assets/3D Models
+  artifactKey: Guid(be2978e71c8d95748b5cec9ca5726eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models using Guid(be2978e71c8d95748b5cec9ca5726eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96d5ada9d64e7e70b6152a75e2e3c79') in 0.016039 seconds
+  Import took 0.022019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.306467 seconds.
   path: Assets/Oculus
   artifactKey: Guid(3a133901a499b8f45a2979ec20b2d482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus using Guid(3a133901a499b8f45a2979ec20b2d482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008864c824f0990b21dd31a1daf1e285') in 0.007276 seconds
-  Import took 0.011556 seconds .
+Start importing Assets/Oculus using Guid(3a133901a499b8f45a2979ec20b2d482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45852b4a6e970d12c5e570e5fb071392') in 0.011541 seconds
+  Import took 0.020368 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000186 seconds.
+  Time since last request: 0.001777 seconds.
+  path: Assets/Oculus
+  artifactKey: Guid(3a133901a499b8f45a2979ec20b2d482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus using Guid(3a133901a499b8f45a2979ec20b2d482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45852b4a6e970d12c5e570e5fb071392') in 0.004335 seconds
+  Import took 0.012546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.585276 seconds.
   path: Assets/Oculus/OculusProjectConfig.asset
   artifactKey: Guid(5bc4850dfd5d50c4a9e4194db309b0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(5bc4850dfd5d50c4a9e4194db309b0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5025a274c7d8fee62e7b56282045e3ff') in 0.025107 seconds
-  Import took 0.028745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.403584 seconds.
-  path: Assets/Oculus/Avatar/Samples
-  artifactKey: Guid(b18c7ae976868a4499e2dbd7f60e92a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Avatar/Samples using Guid(b18c7ae976868a4499e2dbd7f60e92a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5c552fee8265e2c2fe4fba2867d3d1') in 0.006440 seconds
-  Import took 0.009901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.364599 seconds.
-  path: Assets/Oculus/Avatar/Samples/AvatarGallery
-  artifactKey: Guid(35f0ba21582517e45900137034e130af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Avatar/Samples/AvatarGallery using Guid(35f0ba21582517e45900137034e130af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9819b2d1f12194c386d3c8e0c86221d9') in 0.006016 seconds
-  Import took 0.009477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.388626 seconds.
-  path: Assets/Oculus/Avatar/Content
-  artifactKey: Guid(b7b5af4818686f84f844c1ae9df0f700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Avatar/Content using Guid(b7b5af4818686f84f844c1ae9df0f700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ac1d0c9988ccd5a5baed0bcd70f3cc') in 0.006012 seconds
-  Import took 0.009446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.816782 seconds.
-  path: Assets/Oculus/Avatar/Content/Prefabs
-  artifactKey: Guid(e2c4ef7503877e647b22a4089384f04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Avatar/Content/Prefabs using Guid(e2c4ef7503877e647b22a4089384f04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9331de0d37a283310f944de5c6ade92') in 0.005849 seconds
-  Import took 0.009151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.053640 seconds.
-  path: Assets/Oculus/Avatar/Content/Prefabs/LocalAvatar.prefab
-  artifactKey: Guid(84c8b8609f9bb434eaf5248f17ff1293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Avatar/Content/Prefabs/LocalAvatar.prefab using Guid(84c8b8609f9bb434eaf5248f17ff1293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fae619acf84bf5376acb9640e1e140a') in 0.018819 seconds
-  Import took 0.021881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Oculus/Avatar/Content/Prefabs/RemoteAvatar.prefab
-  artifactKey: Guid(90bf33f968e6bb44ea0208fc82c90a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Avatar/Content/Prefabs/RemoteAvatar.prefab using Guid(90bf33f968e6bb44ea0208fc82c90a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590ff75923da35aab541451d5bc09810') in 0.006641 seconds
-  Import took 0.009340 seconds .
+Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(5bc4850dfd5d50c4a9e4194db309b0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4f6ae9b53883d1408753e4a2a6ab76') in 0.128642 seconds
+  Import took 0.137445 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002059 seconds.
+Registered in 0.003202 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
@@ -177,120 +133,404 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.778 seconds
+- Completed reload, in  1.310 seconds
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 2530 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.5 MB.
-System memory in use after: 122.4 MB.
+System memory in use before: 123.6 MB.
+System memory in use after: 123.5 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3073.
-Total: 2.716700 ms (FindLiveObjects: 0.293400 ms CreateObjectMapping: 0.065900 ms MarkObjects: 2.025200 ms  DeleteObjects: 0.331100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 334.011853 seconds.
-  path: Assets/Oculus/VR
-  artifactKey: Guid(722b5ce8d4de36342bdfa14076b1dad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR using Guid(722b5ce8d4de36342bdfa14076b1dad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c3b73f6e405a7908188655c9264633') in 0.010259 seconds
-  Import took 0.014360 seconds .
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3080.
+Total: 6.218800 ms (FindLiveObjects: 0.551900 ms CreateObjectMapping: 0.287400 ms MarkObjects: 4.668000 ms  DeleteObjects: 0.709500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.011729 seconds.
-  path: Assets/Oculus/VR/Oculus.VR.asmdef
-  artifactKey: Guid(f64c9ebcd7899c3448a08dc9f9ddbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Oculus.VR.asmdef using Guid(f64c9ebcd7899c3448a08dc9f9ddbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7526c2e41d842b69d0febb9deda4bdca') in 0.007650 seconds
-  Import took 0.011671 seconds .
+  Time since last request: 10.230962 seconds.
+  path: Assets/Oculus Hands
+  artifactKey: Guid(fc418d5ed5159f24b9212a11bb97db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands using Guid(fc418d5ed5159f24b9212a11bb97db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4f5e95d3805e52eea28f2740a8ef6e') in 0.014701 seconds
+  Import took 0.021290 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.439537 seconds.
-  path: Assets/Oculus/VR/Prefabs
-  artifactKey: Guid(bfe39332fdb4cb044b619b3e4b890396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs using Guid(bfe39332fdb4cb044b619b3e4b890396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688d12c128208842ebf93135fe2afb5e') in 0.002860 seconds
-  Import took 0.006599 seconds .
+  Time since last request: 0.022599 seconds.
+  path: Assets/Oculus Hands
+  artifactKey: Guid(fc418d5ed5159f24b9212a11bb97db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands using Guid(fc418d5ed5159f24b9212a11bb97db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4f5e95d3805e52eea28f2740a8ef6e') in 0.004185 seconds
+  Import took 0.010461 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.053001 seconds.
-  path: Assets/Oculus/VR/Prefabs/Cursor_Timer.prefab
-  artifactKey: Guid(5a7682c244a150b49965c007720bdbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/Cursor_Timer.prefab using Guid(5a7682c244a150b49965c007720bdbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66f593ccd9def818babb486fbc9bcc2') in 0.077490 seconds
-  Import took 0.081999 seconds .
+  Time since last request: 3.782302 seconds.
+  path: Assets/Pavement textures pack
+  artifactKey: Guid(d9958afa005b58d48a8487c4f1820aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack using Guid(d9958afa005b58d48a8487c4f1820aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06118d480e8b2dd5020e36b3f8d6d3b') in 0.010764 seconds
+  Import took 0.016467 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_R.prefab
-  artifactKey: Guid(e201a24a09e942042b93390d0444d728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_R.prefab using Guid(e201a24a09e942042b93390d0444d728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cd0bc782fd7963eb501df1021c7ba6') in 0.024730 seconds
-  Import took 0.028498 seconds .
+  Time since last request: 0.005665 seconds.
+  path: Assets/Pavement textures pack
+  artifactKey: Guid(d9958afa005b58d48a8487c4f1820aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack using Guid(d9958afa005b58d48a8487c4f1820aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06118d480e8b2dd5020e36b3f8d6d3b') in 0.004686 seconds
+  Import took 0.010009 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab
-  artifactKey: Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab using Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b214e592e84afaefd6b33da390b009') in 0.010892 seconds
-  Import took 0.015030 seconds .
+  Time since last request: 10.030133 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(618a626eee2eb5d40b9aed9da5acc676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(618a626eee2eb5d40b9aed9da5acc676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c1a8f17dbe673f18afbfb678951817') in 0.011469 seconds
+  Import took 0.018005 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRCubemapCaptureProbe.prefab
-  artifactKey: Guid(7a400e96d4650ff4e827a7e727fad81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRCubemapCaptureProbe.prefab using Guid(7a400e96d4650ff4e827a7e727fad81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add7cc671e7003382f9f82f5e08f3928') in 0.008333 seconds
-  Import took 0.011848 seconds .
+  Time since last request: 0.002682 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(618a626eee2eb5d40b9aed9da5acc676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(618a626eee2eb5d40b9aed9da5acc676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c1a8f17dbe673f18afbfb678951817') in 0.003779 seconds
+  Import took 0.009380 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRHandPrefab.prefab
-  artifactKey: Guid(835e735ca71bf78459fb2cababd74112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRHandPrefab.prefab using Guid(835e735ca71bf78459fb2cababd74112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07184b229ed97b84e25b7c32c4c6f947') in 0.009674 seconds
-  Import took 0.013280 seconds .
+  Time since last request: 0.363034 seconds.
+  path: Assets/Resources/ONSPSettings.asset
+  artifactKey: Guid(6692ab1e438014d42877b8fa94a5ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ONSPSettings.asset using Guid(6692ab1e438014d42877b8fa94a5ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c790a861a2a551b54279891505f840ab') in 0.011570 seconds
+  Import took 0.017426 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Resources/OVRPlatformToolSettings.asset
+  artifactKey: Guid(64179dab226488a45a1f3e5a2d44e254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OVRPlatformToolSettings.asset using Guid(64179dab226488a45a1f3e5a2d44e254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a62b2b6466e9208465878cabbc50cf') in 0.012038 seconds
+  Import took 0.018110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Resources/OvrAvatarSettings.asset
+  artifactKey: Guid(30d8aa0f30b7b7047a7e2ba45ea350b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OvrAvatarSettings.asset using Guid(30d8aa0f30b7b7047a7e2ba45ea350b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad792c0d538686a37dc36612993b14a2') in 0.013466 seconds
+  Import took 0.019722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.798362 seconds.
+  path: Assets/Etc
+  artifactKey: Guid(a367d9e1c161ad84cae3a1ffc452735d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etc using Guid(a367d9e1c161ad84cae3a1ffc452735d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbf513623547c06e715ece1743991d6') in 0.010179 seconds
+  Import took 0.017175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002516 seconds.
+  path: Assets/Etc
+  artifactKey: Guid(a367d9e1c161ad84cae3a1ffc452735d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etc using Guid(a367d9e1c161ad84cae3a1ffc452735d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbf513623547c06e715ece1743991d6') in 0.004146 seconds
+  Import took 0.010628 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003161 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.357 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2530 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.6 MB.
+System memory in use after: 124.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3083.
+Total: 4.284100 ms (FindLiveObjects: 0.307800 ms CreateObjectMapping: 0.278500 ms MarkObjects: 3.247400 ms  DeleteObjects: 0.448900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.470203 seconds.
+  path: Assets/XR
+  artifactKey: Guid(01cb5cee8e5a6f446857a61ea6980c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(01cb5cee8e5a6f446857a61ea6980c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7be27aa74b5b4372838072e232c46f') in 0.017614 seconds
+  Import took 0.024367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051954 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(21b592469c06ba448a6dd5699c4bb0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(21b592469c06ba448a6dd5699c4bb0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327fadb9beac1c170b85db43e26ac553') in 0.022090 seconds
+  Import took 0.029170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002922 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(21b592469c06ba448a6dd5699c4bb0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(21b592469c06ba448a6dd5699c4bb0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327fadb9beac1c170b85db43e26ac553') in 0.005844 seconds
+  Import took 0.012098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.969217 seconds.
+  path: Assets/HandPresence.cs
+  artifactKey: Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandPresence.cs using Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66920b37349de8e35c036a2694b50fc3') in 0.020270 seconds
+  Import took 0.026163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037394 seconds.
+  path: Assets/HandPresence.cs
+  artifactKey: Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandPresence.cs using Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66920b37349de8e35c036a2694b50fc3') in 0.004357 seconds
+  Import took 0.010778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.957213 seconds.
+  path: Assets/Left Hand Animator.controller
+  artifactKey: Guid(78a3e9df09f3a0747a70e678060af948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Left Hand Animator.controller using Guid(78a3e9df09f3a0747a70e678060af948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f03166a0cae6e7be89f3f087643e52') in 0.018295 seconds
+  Import took 0.024441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081086 seconds.
+  path: Assets/Left Hand Animator.controller
+  artifactKey: Guid(78a3e9df09f3a0747a70e678060af948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Left Hand Animator.controller using Guid(78a3e9df09f3a0747a70e678060af948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f03166a0cae6e7be89f3f087643e52') in 0.009983 seconds
+  Import took 0.017161 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.482 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2530 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.7 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3086.
+Total: 6.255400 ms (FindLiveObjects: 0.439200 ms CreateObjectMapping: 0.189400 ms MarkObjects: 5.113600 ms  DeleteObjects: 0.511200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.083691 seconds.
+  path: Assets/Right Hand Animator.controller
+  artifactKey: Guid(3949017989d845c40adce89ed750ad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Right Hand Animator.controller using Guid(3949017989d845c40adce89ed750ad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84009bb34872e35e00550fa06e7cb9f') in 0.021577 seconds
+  Import took 0.028644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.955490 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(90661a298cdcbc642ab446eb23ef8a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(90661a298cdcbc642ab446eb23ef8a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8df49c4411e89ff548c0c9151b63f15') in 0.009072 seconds
+  Import took 0.014668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011542 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(90661a298cdcbc642ab446eb23ef8a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(90661a298cdcbc642ab446eb23ef8a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8df49c4411e89ff548c0c9151b63f15') in 0.004242 seconds
+  Import took 0.011322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.190592 seconds.
+  path: Assets/Animations/Animator
+  artifactKey: Guid(26e96f4a98c7e144d9c73fc12dadc56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Animator using Guid(26e96f4a98c7e144d9c73fc12dadc56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd551313f84bc4b7b5170f0d5c9e195') in 0.011676 seconds
+  Import took 0.018176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003680 seconds.
+  path: Assets/Animations/Animator
+  artifactKey: Guid(26e96f4a98c7e144d9c73fc12dadc56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Animator using Guid(26e96f4a98c7e144d9c73fc12dadc56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd551313f84bc4b7b5170f0d5c9e195') in 0.003601 seconds
+  Import took 0.014522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.030092 seconds.
+  path: Assets/Animations/Animators
+  artifactKey: Guid(26e96f4a98c7e144d9c73fc12dadc56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Animators using Guid(26e96f4a98c7e144d9c73fc12dadc56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689cc26494367fe70709308c2f6961b8') in 0.015281 seconds
+  Import took 0.021468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.332740 seconds.
+  path: Assets/lcoo.cs
+  artifactKey: Guid(2218c458654c31949ae5b786a2425a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lcoo.cs using Guid(2218c458654c31949ae5b786a2425a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5838a3bf64cecb2400f8063a3f2914b7') in 0.011935 seconds
+  Import took 0.020808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003948 seconds.
+  path: Assets/lcoo.cs
+  artifactKey: Guid(2218c458654c31949ae5b786a2425a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lcoo.cs using Guid(2218c458654c31949ae5b786a2425a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5838a3bf64cecb2400f8063a3f2914b7') in 0.005900 seconds
+  Import took 0.058180 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004295 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.347 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.8 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3090.
+Total: 3.769700 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.250900 ms MarkObjects: 2.640900 ms  DeleteObjects: 0.519300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.479 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2530 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.8 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3092.
+Total: 4.284300 ms (FindLiveObjects: 0.325400 ms CreateObjectMapping: 0.239100 ms MarkObjects: 3.238100 ms  DeleteObjects: 0.479900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.275774 seconds.
   path: Assets/Oculus/VR/Prefabs/OVRPlayerController.prefab
   artifactKey: Guid(ce816f2e6abb0504092c23ed9b970dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRPlayerController.prefab using Guid(ce816f2e6abb0504092c23ed9b970dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cec3bf23205e8db4f0fdaeb1dad5342') in 0.009279 seconds
-  Import took 0.012703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab
-  artifactKey: Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab using Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64625d3313b476d18b1e7bb49cea74c9') in 0.485466 seconds
-  Import took 0.489852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_L.prefab
-  artifactKey: Guid(c6a74181d4000004887343fb87b3c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_L.prefab using Guid(c6a74181d4000004887343fb87b3c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3ae29059809bb83a2316e5cf0d251d') in 0.021071 seconds
-  Import took 0.024746 seconds .
+Start importing Assets/Oculus/VR/Prefabs/OVRPlayerController.prefab using Guid(ce816f2e6abb0504092c23ed9b970dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b3112d71126cd0ffeebf452e3b601d') in 0.049300 seconds
+  Import took 0.056220 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002141 seconds.
+Registered in 0.003603 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
@@ -304,32 +544,32 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.736 seconds
+- Completed reload, in  1.603 seconds
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Unloading 2530 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.7 MB.
-System memory in use after: 126.5 MB.
+System memory in use before: 124.8 MB.
+System memory in use after: 124.7 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3085.
-Total: 2.690300 ms (FindLiveObjects: 0.307800 ms CreateObjectMapping: 0.068200 ms MarkObjects: 2.049700 ms  DeleteObjects: 0.262700 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3095.
+Total: 6.279700 ms (FindLiveObjects: 0.768600 ms CreateObjectMapping: 0.378600 ms MarkObjects: 4.490400 ms  DeleteObjects: 0.640200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002648 seconds.
+Registered in 0.002929 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
@@ -343,32 +583,32 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.760 seconds
+- Completed reload, in  1.401 seconds
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 2530 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.7 MB.
-System memory in use after: 126.6 MB.
+System memory in use before: 124.8 MB.
+System memory in use after: 124.7 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3088.
-Total: 2.704000 ms (FindLiveObjects: 0.324600 ms CreateObjectMapping: 0.072000 ms MarkObjects: 1.980300 ms  DeleteObjects: 0.326200 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3098.
+Total: 4.467000 ms (FindLiveObjects: 0.377000 ms CreateObjectMapping: 0.193000 ms MarkObjects: 3.329200 ms  DeleteObjects: 0.566500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002421 seconds.
+Registered in 0.003322 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
@@ -382,321 +622,32 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
+- Completed reload, in  1.632 seconds
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.8 MB.
-System memory in use after: 126.6 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3092.
-Total: 2.802700 ms (FindLiveObjects: 0.305900 ms CreateObjectMapping: 0.065500 ms MarkObjects: 2.096700 ms  DeleteObjects: 0.333700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006003 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.755 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.8 MB.
-System memory in use after: 126.6 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3095.
-Total: 2.822400 ms (FindLiveObjects: 0.298700 ms CreateObjectMapping: 0.068100 ms MarkObjects: 2.111000 ms  DeleteObjects: 0.343100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007107 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.787 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.8 MB.
-System memory in use after: 126.6 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3098.
-Total: 2.821600 ms (FindLiveObjects: 0.333800 ms CreateObjectMapping: 0.070200 ms MarkObjects: 2.077900 ms  DeleteObjects: 0.338700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002096 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.8 MB.
-System memory in use after: 126.6 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3101.
-Total: 2.821300 ms (FindLiveObjects: 0.321100 ms CreateObjectMapping: 0.072600 ms MarkObjects: 2.028100 ms  DeleteObjects: 0.398700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002538 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.774 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.7 MB.
-System memory in use after: 126.6 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3104.
-Total: 2.537200 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.062700 ms MarkObjects: 1.854100 ms  DeleteObjects: 0.335200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1414.718308 seconds.
-  path: Assets/HandPresence.cs
-  artifactKey: Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HandPresence.cs using Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbe23f71cb234b0e8bb29fe12eb7742') in 0.013449 seconds
-  Import took 0.017644 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002309 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.739 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.8 MB.
-System memory in use after: 126.7 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3107.
-Total: 3.402700 ms (FindLiveObjects: 0.343200 ms CreateObjectMapping: 0.069100 ms MarkObjects: 2.619900 ms  DeleteObjects: 0.369000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 114.086750 seconds.
-  path: Assets/HandPresence.cs
-  artifactKey: Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HandPresence.cs using Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37138589e1455e97c2692a5a09e0a8d2') in 0.005593 seconds
-  Import took 0.009555 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002217 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.8 MB.
-System memory in use after: 126.7 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3110.
-Total: 2.622500 ms (FindLiveObjects: 0.312800 ms CreateObjectMapping: 0.069100 ms MarkObjects: 1.918500 ms  DeleteObjects: 0.321400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004637 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.8 MB.
-System memory in use after: 126.7 MB.
+Unloading 2530 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.9 MB.
+System memory in use after: 124.7 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3113.
-Total: 3.210300 ms (FindLiveObjects: 0.495200 ms CreateObjectMapping: 0.093200 ms MarkObjects: 2.234500 ms  DeleteObjects: 0.386300 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3101.
+Total: 4.048200 ms (FindLiveObjects: 0.392500 ms CreateObjectMapping: 0.388100 ms MarkObjects: 2.797600 ms  DeleteObjects: 0.468400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006816 seconds.
+Registered in 0.003838 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
@@ -710,64 +661,32 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
+- Completed reload, in  2.532 seconds
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.8 MB.
-System memory in use after: 126.7 MB.
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2530 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.8 MB.
+System memory in use after: 124.7 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3116.
-Total: 2.817300 ms (FindLiveObjects: 0.310200 ms CreateObjectMapping: 0.068600 ms MarkObjects: 2.056100 ms  DeleteObjects: 0.381500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1427.136080 seconds.
-  path: Assets/Oculus Hands
-  artifactKey: Guid(fc418d5ed5159f24b9212a11bb97db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus Hands using Guid(fc418d5ed5159f24b9212a11bb97db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad2663b280c2473c9e1851978e562c4') in 0.010293 seconds
-  Import took 0.014327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.992699 seconds.
-  path: Assets/Oculus Hands/Prefabs
-  artifactKey: Guid(176a87d49f06d4340bf832ac8e2f5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus Hands/Prefabs using Guid(176a87d49f06d4340bf832ac8e2f5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce74aff4a2417ab21fa58b9f15c5daa') in 0.006607 seconds
-  Import took 0.010214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040843 seconds.
-  path: Assets/Oculus Hands/Prefabs/Left Hand Model.prefab
-  artifactKey: Guid(65847589f926b734d9eaed6e25f0046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus Hands/Prefabs/Left Hand Model.prefab using Guid(65847589f926b734d9eaed6e25f0046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe40b5e54a675325e2bd7cc64af384b') in 0.065371 seconds
-  Import took 0.069023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Oculus Hands/Prefabs/Right Hand Model.prefab
-  artifactKey: Guid(1fd3a7c43c8190f4d8c167ebde694364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus Hands/Prefabs/Right Hand Model.prefab using Guid(1fd3a7c43c8190f4d8c167ebde694364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97812ad2690674f235b0e07a07692dad') in 0.015796 seconds
-  Import took 0.019004 seconds .
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3104.
+Total: 12.541900 ms (FindLiveObjects: 0.946500 ms CreateObjectMapping: 0.375600 ms MarkObjects: 10.420300 ms  DeleteObjects: 0.785900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002236 seconds.
+Registered in 0.004511 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
@@ -781,1131 +700,78 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\arnop\UnityProjects\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.745 seconds
+- Completed reload, in  1.884 seconds
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.9 MB.
-System memory in use after: 126.7 MB.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2530 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.9 MB.
+System memory in use after: 124.8 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3120.
-Total: 2.585500 ms (FindLiveObjects: 0.295600 ms CreateObjectMapping: 0.065800 ms MarkObjects: 1.881200 ms  DeleteObjects: 0.342000 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3107.
+Total: 4.113000 ms (FindLiveObjects: 0.479700 ms CreateObjectMapping: 0.213900 ms MarkObjects: 2.721400 ms  DeleteObjects: 0.696200 ms)
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002179 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.755 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.9 MB.
-System memory in use after: 126.7 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3123.
-Total: 2.634900 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.066100 ms MarkObjects: 1.919200 ms  DeleteObjects: 0.363600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 310.982049 seconds.
-  path: Assets/Left Hand Presence.prefab
-  artifactKey: Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Left Hand Presence.prefab using Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6e5957031962bd593ba254161af2a9') in 0.026686 seconds
-  Import took 0.030969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.497582 seconds.
-  path: Assets/right Hand Presence .prefab
-  artifactKey: Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/right Hand Presence .prefab using Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1e6107342e604c09ce77f753e6d49d') in 0.011491 seconds
-  Import took 0.016328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.663263 seconds.
-  path: Assets/New Animator Controller.controller
-  artifactKey: Guid(3949017989d845c40adce89ed750ad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Animator Controller.controller using Guid(3949017989d845c40adce89ed750ad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed38b06aef6842fcaaf387b1f66c6b61') in 0.009477 seconds
-  Import took 0.013690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.774281 seconds.
-  path: Assets/Right Hand Animator.controller
-  artifactKey: Guid(3949017989d845c40adce89ed750ad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Right Hand Animator.controller using Guid(3949017989d845c40adce89ed750ad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff83b67c12e5b52db37be89b9972396') in 0.010207 seconds
-  Import took 0.014808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.351898 seconds.
-  path: Assets/right Hand Presence .prefab
-  artifactKey: Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/right Hand Presence .prefab using Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c73fd0fb42ba0ef290e7888c3f2ff0') in 0.006235 seconds
-  Import took 0.010560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013401 seconds.
-  path: Assets/right Hand Presence .prefab
-  artifactKey: Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/right Hand Presence .prefab using Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c73fd0fb42ba0ef290e7888c3f2ff0') in 0.005476 seconds
-  Import took 0.009599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.939333 seconds.
-  path: Assets/right Hand Presence .prefab
-  artifactKey: Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/right Hand Presence .prefab using Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e6388aecbbe1ca007b1ffd80ae581e') in 0.005370 seconds
-  Import took 0.009473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 253.298550 seconds.
-  path: Assets/Standard Assets/2D/Animations
-  artifactKey: Guid(d8134e4dd9a11c6468abfb1683315eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/2D/Animations using Guid(d8134e4dd9a11c6468abfb1683315eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e67795280698592a75250851110f5e') in 0.006477 seconds
-  Import took 0.010491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.111259 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_button03_anim.fbx
-  artifactKey: Guid(0bc3b5262633562459436d35c62799ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_button03_anim.fbx using Guid(0bc3b5262633562459436d35c62799ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa7111848b7a5b88fe4256af6805a47') in 0.044556 seconds
-  Import took 0.048524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_default_anim.fbx
-  artifactKey: Guid(b6c38558987444240b3b3950e4450b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_default_anim.fbx using Guid(b6c38558987444240b3b3950e4450b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527e6218373671d3cdbbf58409647d37') in 0.012896 seconds
-  Import took 0.016172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/old_l_hand_pinch_anim.fbx
-  artifactKey: Guid(e7d2f46c372333a47a3d2cb064903562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/old_l_hand_pinch_anim.fbx using Guid(e7d2f46c372333a47a3d2cb064903562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8368a200195cc97cbe99d2765944166') in 0.013521 seconds
-  Import took 0.016913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Right.fbx
-  artifactKey: Guid(25b5eb0761edb6346b0b3444af76b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Right.fbx using Guid(25b5eb0761edb6346b0b3444af76b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebc4e64b9343889b74aaf41ff84cc45') in 0.077688 seconds
-  Import took 0.081438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Left.fbx
-  artifactKey: Guid(8b83018900d13bb4f8e0ad895cb004e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Left.fbx using Guid(8b83018900d13bb4f8e0ad895cb004e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1307abbb39cef0fefa5da12d2b2328f') in 0.031645 seconds
-  Import took 0.035148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Oculus/VR/Meshes/OculusTouchForRift/left_touch_controller_model_skel.fbx
-  artifactKey: Guid(c3ba18e9fa5e9104098cbdbb3e23a5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Meshes/OculusTouchForRift/left_touch_controller_model_skel.fbx using Guid(c3ba18e9fa5e9104098cbdbb3e23a5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe8e039f054b114d8fc67e5ffe65c2e') in 0.067792 seconds
-  Import took 0.071639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/old_r_hand_pinch_anim.fbx
-  artifactKey: Guid(6e0d791d9e2bdcd4f80b32d42036676f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/old_r_hand_pinch_anim.fbx using Guid(6e0d791d9e2bdcd4f80b32d42036676f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc5e02c865192fb9ac5886ecb64972c') in 0.012405 seconds
-  Import took 0.015806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_pinch_anim.fbx
-  artifactKey: Guid(165871bb4fa915847973b6955c7a670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_pinch_anim.fbx using Guid(165871bb4fa915847973b6955c7a670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cc45c787f291b78f0d555fcf4a3e7d') in 0.013054 seconds
-  Import took 0.016585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_button03_anim.fbx
-  artifactKey: Guid(d87443f60dbf8e743b0a2469d69e32b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_button03_anim.fbx using Guid(d87443f60dbf8e743b0a2469d69e32b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e28b649fcf2295ea211133b7002d29') in 0.012382 seconds
-  Import took 0.015375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Left.fbx
-  artifactKey: Guid(32fbc8bcebb64584da5868aeeb086cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Left.fbx using Guid(32fbc8bcebb64584da5868aeeb086cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4388b1dd21363b76d4284cdb64ebb022') in 0.029794 seconds
-  Import took 0.033509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_neutral_button03_mask_anim.fbx
-  artifactKey: Guid(90e3ae0cd1f24414985752a766ef8f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_neutral_button03_mask_anim.fbx using Guid(90e3ae0cd1f24414985752a766ef8f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9f76db4264da4d369ab4ea7b0423c3') in 0.012169 seconds
-  Import took 0.015579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_hold_l_controller_anim.fbx
-  artifactKey: Guid(f29e0ae9b6aa173489854687db6a05bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_hold_l_controller_anim.fbx using Guid(f29e0ae9b6aa173489854687db6a05bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b936f43f49ef2822cc8c13ccca6ea3e') in 0.014178 seconds
-  Import took 0.017677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_default_anim.fbx
-  artifactKey: Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_default_anim.fbx using Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8408726657dca97405cce566d636ba47') in 0.013495 seconds
-  Import took 0.018737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx
-  artifactKey: Guid(37ba10a26a648144fa2390c8adfb2c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx using Guid(37ba10a26a648144fa2390c8adfb2c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d246f2458408adbb6a0b1eaaaf679c5') in 0.031952 seconds
-  Import took 0.036053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_neutral_button03_mask_anim.fbx
-  artifactKey: Guid(0a0d4a0431d8f1247b902263d54324d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_neutral_button03_mask_anim.fbx using Guid(0a0d4a0431d8f1247b902263d54324d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f0591a200839c9ea7d7717c01d9024') in 0.013292 seconds
-  Import took 0.016964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Oculus/VR/Meshes/OculusTouchForRift/right_touch_controller_model_skel.fbx
-  artifactKey: Guid(c3798d66af7bbe54bbfe22a3b302300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Meshes/OculusTouchForRift/right_touch_controller_model_skel.fbx using Guid(c3798d66af7bbe54bbfe22a3b302300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef7f9572451c0ae2204b149f50e97da') in 0.028637 seconds
-  Import took 0.032598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_billiard_ball_anim.fbx
-  artifactKey: Guid(49313745e0e0842789ab3723bbc0d74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_billiard_ball_anim.fbx using Guid(49313745e0e0842789ab3723bbc0d74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a53b3b63216ee30ad76dff62874f17d') in 0.013998 seconds
-  Import took 0.018028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_hold_billiard_ball_anim.fbx
-  artifactKey: Guid(bca4c48c730914fff8cceefbcaa0c11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_hold_billiard_ball_anim.fbx using Guid(bca4c48c730914fff8cceefbcaa0c11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aef323a44bef50883a79532672f0ea3') in 0.014293 seconds
-  Import took 0.017752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_pinch_anim.fbx
-  artifactKey: Guid(a91ff20f7450bf446a6bf0bfb5e932ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_pinch_anim.fbx using Guid(a91ff20f7450bf446a6bf0bfb5e932ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d34e20a73145f84a59082ea9d618771') in 0.012956 seconds
-  Import took 0.016168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_r_controller_anim.fbx
-  artifactKey: Guid(323906a7e4d1c1049b00339691b2db98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_r_controller_anim.fbx using Guid(323906a7e4d1c1049b00339691b2db98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4634f9fc7403f848bb8c94063b0a09f9') in 0.014228 seconds
-  Import took 0.017469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.089984 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Animations
-  artifactKey: Guid(43999731f104a6247ac375aa23e861ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Animations using Guid(43999731f104a6247ac375aa23e861ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fa9c08aaeea07961a30cd2d8fe68b6') in 0.003128 seconds
-  Import took 0.006884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.571584 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations
-  artifactKey: Guid(6c6dc1a3db5975846b8459a238032ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations using Guid(6c6dc1a3db5975846b8459a238032ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3748216a141b76c7fc1c58f471652e60') in 0.002994 seconds
-  Import took 0.010139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.349597 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations
-  artifactKey: Guid(e840c6d7927a8794895d56387046aea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations using Guid(e840c6d7927a8794895d56387046aea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cae6ac7f2120d25ec73d392e656749') in 0.003163 seconds
-  Import took 0.007036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.309194 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_cap_touch_anim.fbx
-  artifactKey: Guid(16a87db82a90e2b40986857ee65aea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_cap_touch_anim.fbx using Guid(16a87db82a90e2b40986857ee65aea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adac0992673d8995ad96235235675e4') in 0.012760 seconds
-  Import took 0.016696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_cap_touch_thumb_mask_anim.fbx
-  artifactKey: Guid(335d75faf2966944c94ee3b473124610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_cap_touch_thumb_mask_anim.fbx using Guid(335d75faf2966944c94ee3b473124610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcabc452baffd95f105cd558d6874678') in 0.014710 seconds
-  Import took 0.017741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_squirtgun_hold.fbx
-  artifactKey: Guid(da9d238ccd8894d5bad0dbb14cf41280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_squirtgun_hold.fbx using Guid(da9d238ccd8894d5bad0dbb14cf41280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513281036b6a61ec7f3e0ed2ffa6877a') in 0.014175 seconds
-  Import took 0.017874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_relax_mid_fist_anim.fbx
-  artifactKey: Guid(ce6184a26b41c254ea24a5968f59d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_relax_mid_fist_anim.fbx using Guid(ce6184a26b41c254ea24a5968f59d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0581d1e624fe23a6584dbdf14f359183') in 0.013386 seconds
-  Import took 0.017149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_cap_touch_index_mask_anim.fbx
-  artifactKey: Guid(8e1d6427aa0b5584ab3744e9988d6e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_cap_touch_index_mask_anim.fbx using Guid(8e1d6427aa0b5584ab3744e9988d6e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfccb044c085238e52596a1b8b8f8e67') in 0.012903 seconds
-  Import took 0.016408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_fist_anim.fbx
-  artifactKey: Guid(7cb2e1480bb51ce4282f540ea3f41d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_fist_anim.fbx using Guid(7cb2e1480bb51ce4282f540ea3f41d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6011fe77ea544d1ab9f77daba6688e') in 0.012991 seconds
-  Import took 0.016530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_relax_3qtr_fist_anim.fbx
-  artifactKey: Guid(649ee9096089b1342bee9132e3ccc8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_relax_3qtr_fist_anim.fbx using Guid(649ee9096089b1342bee9132e3ccc8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1de011ca79bd2f43163709be30eae6') in 0.013336 seconds
-  Import took 0.016554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_thumbs_up_anim.fbx
-  artifactKey: Guid(38245a3244d4c904e9a7c93dfc8ffbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_thumbs_up_anim.fbx using Guid(38245a3244d4c904e9a7c93dfc8ffbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c64591be31de9bd27d2c323797ee59') in 0.013131 seconds
-  Import took 0.016546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_ping_pong_ball_anim.fbx
-  artifactKey: Guid(7bf81deb4ead62e4c9de1e69bb491c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_ping_pong_ball_anim.fbx using Guid(7bf81deb4ead62e4c9de1e69bb491c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233e4ac1d1037286abb63ebebc34e6e8') in 0.013015 seconds
-  Import took 0.016527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_point_anim.fbx
-  artifactKey: Guid(a00bb4e2a48d6b04f9a9865f78869df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_point_anim.fbx using Guid(a00bb4e2a48d6b04f9a9865f78869df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c023f7f0bf64650629aa2cd7a5a9a08') in 0.013631 seconds
-  Import took 0.016763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_point_anim.fbx
-  artifactKey: Guid(7a701167f3382f3469c311bb308142af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_point_anim.fbx using Guid(7a701167f3382f3469c311bb308142af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad37a0a1b7c501b5b70e086672032be2') in 0.013020 seconds
-  Import took 0.016141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_generic_anim.fbx
-  artifactKey: Guid(6c41a6e223fece0458162624394578d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_generic_anim.fbx using Guid(6c41a6e223fece0458162624394578d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f6d2a7e0d279fe49d1c9d7088c11c4') in 0.013238 seconds
-  Import took 0.016769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_thumbs_up_anim.fbx
-  artifactKey: Guid(367eacd8142e4ca478642189323d9cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_thumbs_up_anim.fbx using Guid(367eacd8142e4ca478642189323d9cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfda62f5a92e20779a765fd41d45e0cd') in 0.011387 seconds
-  Import took 0.014557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_hold_ping_pong_ball_anim.fbx
-  artifactKey: Guid(a49c22e69aed68a4e9c458fe4276065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_hold_ping_pong_ball_anim.fbx using Guid(a49c22e69aed68a4e9c458fe4276065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea28d855303c3aaadf46f33bf7532835') in 0.013147 seconds
-  Import took 0.016343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_cap_touch_thumb_mask_anim.fbx
-  artifactKey: Guid(73af2d5eb4aa5f84c9489fec88acb742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_cap_touch_thumb_mask_anim.fbx using Guid(73af2d5eb4aa5f84c9489fec88acb742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dfc880d9ac1b6ccd57c1ec95197772') in 0.013141 seconds
-  Import took 0.016405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_cap_touch_index_mask_anim.fbx
-  artifactKey: Guid(8f30ac6cbbbe39d43886ad7626f7e2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_cap_touch_index_mask_anim.fbx using Guid(8f30ac6cbbbe39d43886ad7626f7e2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec29305413264cb45d7ff1676500495') in 0.012781 seconds
-  Import took 0.015738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_squirtgun_hold.fbx
-  artifactKey: Guid(43171d57359ad41adb9be2572f17ca1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_squirtgun_hold.fbx using Guid(43171d57359ad41adb9be2572f17ca1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa75705745dfe850ac05a7711c1e6c61') in 0.013369 seconds
-  Import took 0.016612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_squirtgun_squeeze.fbx
-  artifactKey: Guid(0f07644e420a94efea12b56371e388e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_squirtgun_squeeze.fbx using Guid(0f07644e420a94efea12b56371e388e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc124530e1fca608bc60add5e0aae3a') in 0.013179 seconds
-  Import took 0.016323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_squirtgun_squeeze.fbx
-  artifactKey: Guid(808dcbebdf91d4538b1a35ab4f5a5684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_squirtgun_squeeze.fbx using Guid(808dcbebdf91d4538b1a35ab4f5a5684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f31b699ad3ce6ff0d524b46d13287c') in 0.013681 seconds
-  Import took 0.016948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_fist_anim.fbx
-  artifactKey: Guid(005ab0ae8aa7f74438a5fa50f7cd50e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_fist_anim.fbx using Guid(005ab0ae8aa7f74438a5fa50f7cd50e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65af426f69a4e8008aa12d14d1011456') in 0.012998 seconds
-  Import took 0.016228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_hold_generic_anim.fbx
-  artifactKey: Guid(b8943b5ee74fcd945a2746d0051466cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_hold_generic_anim.fbx using Guid(b8943b5ee74fcd945a2746d0051466cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc85fb8aaba4247a7cb4cef35fd1e4f4') in 0.013078 seconds
-  Import took 0.016128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_cap_touch_anim.fbx
-  artifactKey: Guid(e20fcbe7f2c351b4096e9fc3f6a320ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_cap_touch_anim.fbx using Guid(e20fcbe7f2c351b4096e9fc3f6a320ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837fd36f4717bea0c8110c501e30a484') in 0.011630 seconds
-  Import took 0.014592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_relax_3qtr_fist_anim.fbx
-  artifactKey: Guid(79e0d96a3e30fec46a930ab7dd95ef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_relax_3qtr_fist_anim.fbx using Guid(79e0d96a3e30fec46a930ab7dd95ef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1ef0a2dd23dd7d56d79281ccbffd6c') in 0.012299 seconds
-  Import took 0.015451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_relax_mid_fist_anim.fbx
-  artifactKey: Guid(3c1e2504e79f7a242a8a0c8a4add2578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_relax_mid_fist_anim.fbx using Guid(3c1e2504e79f7a242a8a0c8a4add2578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790fd900ecb9361c721e6ce3de6c81c0') in 0.012998 seconds
-  Import took 0.016077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 259.533674 seconds.
-  path: Assets/Right Hand Animator.controller
-  artifactKey: Guid(3949017989d845c40adce89ed750ad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Right Hand Animator.controller using Guid(3949017989d845c40adce89ed750ad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd279418d3506a2de6135b1b3f759c652') in 0.003739 seconds
-  Import took 0.007587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.471442 seconds.
-  path: Assets/Right Hand Animator 1.controller
-  artifactKey: Guid(78a3e9df09f3a0747a70e678060af948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Right Hand Animator 1.controller using Guid(78a3e9df09f3a0747a70e678060af948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb7bb20eda0addc8c5add083df22061') in 0.008460 seconds
-  Import took 0.012722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.409905 seconds.
-  path: Assets/Left Hand Animator.controller
-  artifactKey: Guid(78a3e9df09f3a0747a70e678060af948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Left Hand Animator.controller using Guid(78a3e9df09f3a0747a70e678060af948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8e48a68ba38a966ad48325b7a2e07f') in 0.010109 seconds
-  Import took 0.014669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.624431 seconds.
-  path: Assets/Full Body FPS Controller/Full Body FPS Controller/Standard Assets/Unity - Interactive Tut/Animations
-  artifactKey: Guid(33b9747d1f50cb249b4e2fb3e3464f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Full Body FPS Controller/Full Body FPS Controller/Standard Assets/Unity - Interactive Tut/Animations using Guid(33b9747d1f50cb249b4e2fb3e3464f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe26761f04f8b0e02873c06e3caff27') in 0.002995 seconds
-  Import took 0.006989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.454716 seconds.
-  path: Assets/Left Hand Presence.prefab
-  artifactKey: Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Left Hand Presence.prefab using Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2f32d1bc78673fd2cc1a50e2e8bff2') in 0.009903 seconds
-  Import took 0.013930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.208444 seconds.
-  path: Assets/Left Hand Presence.prefab
-  artifactKey: Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Left Hand Presence.prefab using Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d61f26c45650c2e1f124a1a67889157') in 0.005494 seconds
-  Import took 0.009933 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003005 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.0 MB.
-System memory in use after: 127.8 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3162.
-Total: 2.678700 ms (FindLiveObjects: 0.373400 ms CreateObjectMapping: 0.066800 ms MarkObjects: 1.904600 ms  DeleteObjects: 0.332300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002648 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.733 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.0 MB.
-System memory in use after: 127.8 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3165.
-Total: 2.684200 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.070000 ms MarkObjects: 1.930500 ms  DeleteObjects: 0.341200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 529.819668 seconds.
-  path: Assets/Left Hand Presence.prefab
-  artifactKey: Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Left Hand Presence.prefab using Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72dbcee7d87fee217682fe63044d5946') in 0.020100 seconds
-  Import took 0.024675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.661284 seconds.
-  path: Assets/right Hand Presence .prefab
-  artifactKey: Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/right Hand Presence .prefab using Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2568d79fc54e6e1956ccf0cf94ebf1') in 0.009685 seconds
-  Import took 0.014297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003434 seconds.
-  path: Assets/right Hand Presence .prefab
-  artifactKey: Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/right Hand Presence .prefab using Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2568d79fc54e6e1956ccf0cf94ebf1') in 0.005641 seconds
-  Import took 0.009498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.481401 seconds.
-  path: Assets/right Hand Presence .prefab
-  artifactKey: Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/right Hand Presence .prefab using Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50beca85d4cdfc07db1579ebe5a5bdb') in 0.005831 seconds
-  Import took 0.009629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.459895 seconds.
-  path: Assets/Left Hand Presence.prefab
-  artifactKey: Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Left Hand Presence.prefab using Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc521a86904be8348c2d89a78c7c1b5') in 0.005588 seconds
-  Import took 0.010012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018478 seconds.
-  path: Assets/Left Hand Presence.prefab
-  artifactKey: Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Left Hand Presence.prefab using Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc521a86904be8348c2d89a78c7c1b5') in 0.005302 seconds
-  Import took 0.008606 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002182 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.0 MB.
-System memory in use after: 127.8 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3168.
-Total: 2.600400 ms (FindLiveObjects: 0.259300 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.938500 ms  DeleteObjects: 0.336200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001997 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.739 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.9 MB.
-System memory in use after: 128.7 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3171.
-Total: 2.784700 ms (FindLiveObjects: 0.331700 ms CreateObjectMapping: 0.067200 ms MarkObjects: 2.044300 ms  DeleteObjects: 0.340500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 344.932566 seconds.
-  path: Assets/Left Hand Presence.prefab
-  artifactKey: Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Left Hand Presence.prefab using Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b04bf3a2e11f8bd485b7058a5e1590') in 0.020901 seconds
-  Import took 0.025274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.073672 seconds.
-  path: Assets/HandPresence.cs
-  artifactKey: Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HandPresence.cs using Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973d718650fdab212361a375f9809e5d') in 0.005971 seconds
-  Import took 0.009592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016461 seconds.
-  path: Assets/HandPresence.cs
-  artifactKey: Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HandPresence.cs using Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973d718650fdab212361a375f9809e5d') in 0.002915 seconds
-  Import took 0.005729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.103401 seconds.
-  path: Assets/Left Hand Presence.prefab
-  artifactKey: Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Left Hand Presence.prefab using Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5501d43dad4abe322b0250c1859341') in 0.006719 seconds
-  Import took 0.012621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.915482 seconds.
-  path: Assets/Left Hand Presence.prefab
-  artifactKey: Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Left Hand Presence.prefab using Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc47c97daec8f8f0054c98549266f692') in 0.004946 seconds
-  Import took 0.008958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.172824 seconds.
-  path: Assets/Left Hand Presence.prefab
-  artifactKey: Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Left Hand Presence.prefab using Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c876217012e6d946b3a34e1776bf5574') in 0.005330 seconds
-  Import took 0.009659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.641233 seconds.
-  path: Assets/right Hand Presence .prefab
-  artifactKey: Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/right Hand Presence .prefab using Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105ee5a81d748330c4ffbda60999f77a') in 0.008117 seconds
-  Import took 0.013442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000528 seconds.
-  path: Assets/right Hand Presence .prefab
-  artifactKey: Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/right Hand Presence .prefab using Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105ee5a81d748330c4ffbda60999f77a') in 0.005267 seconds
-  Import took 0.009951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.556580 seconds.
-  path: Assets/right Hand Presence .prefab
-  artifactKey: Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/right Hand Presence .prefab using Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f734d7f2421e51467ea380c401fe28b') in 0.005753 seconds
-  Import took 0.010278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.167799 seconds.
-  path: Assets/right Hand Presence .prefab
-  artifactKey: Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/right Hand Presence .prefab using Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076d5504d357d616db1a8b677924441a') in 0.005367 seconds
-  Import took 0.009332 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002188 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.739 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.0 MB.
-System memory in use after: 127.9 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3174.
-Total: 2.843600 ms (FindLiveObjects: 0.385900 ms CreateObjectMapping: 0.078400 ms MarkObjects: 2.021800 ms  DeleteObjects: 0.356400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002116 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.743 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.0 MB.
-System memory in use after: 127.9 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3177.
-Total: 2.591600 ms (FindLiveObjects: 0.301000 ms CreateObjectMapping: 0.065400 ms MarkObjects: 1.883100 ms  DeleteObjects: 0.341400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 419.022819 seconds.
-  path: Assets/HandPresence.cs
-  artifactKey: Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HandPresence.cs using Guid(2abbe600177767f41a8493da66daaa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c352882e20c016ad900489029e031a1') in 0.005638 seconds
-  Import took 0.009281 seconds .
-
-========================================================================
 Received Import Request.
-  Time since last request: 13.883013 seconds.
-  path: Assets/Right Hand Animator.controller
-  artifactKey: Guid(3949017989d845c40adce89ed750ad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Right Hand Animator.controller using Guid(3949017989d845c40adce89ed750ad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c178138210aaaa7a3702badfac464e') in 0.007787 seconds
-  Import took 0.011858 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002335 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+  Time since last request: 2294.541549 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000c53e3b2a220ad82ef7a05bd5d89ce') in 0.018406 seconds
+  Import took 0.025878 seconds .
 
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.762 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.0 MB.
-System memory in use after: 127.9 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3180.
-Total: 2.577800 ms (FindLiveObjects: 0.290400 ms CreateObjectMapping: 0.065300 ms MarkObjects: 1.895200 ms  DeleteObjects: 0.326000 ms)
-
 ========================================================================
 Received Import Request.
-  Time since last request: 171.214465 seconds.
-  path: Assets/Left Hand Presence.prefab
-  artifactKey: Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Left Hand Presence.prefab using Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebafc645cf337fd3094012e33539d060') in 0.020187 seconds
-  Import took 0.024188 seconds .
+  Time since last request: 0.006366 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000c53e3b2a220ad82ef7a05bd5d89ce') in 0.008953 seconds
+  Import took 0.021013 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.702247 seconds.
-  path: Assets/right Hand Presence .prefab
-  artifactKey: Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/right Hand Presence .prefab using Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adf5a83ff0ab9976384b12a2cd09324') in 0.005618 seconds
-  Import took 0.010254 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002108 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.749 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.0 MB.
-System memory in use after: 127.9 MB.
+  Time since last request: 425.094289 seconds.
+  path: Assets/Materials/Box.mat
+  artifactKey: Guid(9d03133ac9e8db44188dbdfee9b973b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Box.mat using Guid(9d03133ac9e8db44188dbdfee9b973b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f0334d8be0545bec6b71e2c44fa459') in 0.174692 seconds
+  Import took 0.184326 seconds .
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3183.
-Total: 2.558900 ms (FindLiveObjects: 0.263900 ms CreateObjectMapping: 0.067200 ms MarkObjects: 1.917600 ms  DeleteObjects: 0.309500 ms)
-
 ========================================================================
 Received Import Request.
-  Time since last request: 356.764916 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(618a626eee2eb5d40b9aed9da5acc676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(618a626eee2eb5d40b9aed9da5acc676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc55731e226064f2038c62d6043ed9ea') in 0.012458 seconds
-  Import took 0.017466 seconds .
+  Time since last request: 0.000253 seconds.
+  path: Assets/Materials/BoxHighlighted.mat
+  artifactKey: Guid(252a9880ce01e3d4bbefcf45f32ab5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BoxHighlighted.mat using Guid(252a9880ce01e3d4bbefcf45f32ab5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b388314bfb6d982ed90d84350597a0f') in 0.035971 seconds
+  Import took 0.044185 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006287 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(618a626eee2eb5d40b9aed9da5acc676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(618a626eee2eb5d40b9aed9da5acc676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc55731e226064f2038c62d6043ed9ea') in 0.003158 seconds
-  Import took 0.006415 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002313 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+  Time since last request: 5.906341 seconds.
+  path: Assets/Materials/ReticleBase.mat
+  artifactKey: Guid(00db596a4dd364e45bc9e65407fb788f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ReticleBase.mat using Guid(00db596a4dd364e45bc9e65407fb788f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae184580d29be06cff95db69db78699') in 0.022935 seconds
+  Import took 0.029446 seconds .
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.735 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.0 MB.
-System memory in use after: 127.9 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3186.
-Total: 2.722300 ms (FindLiveObjects: 0.298900 ms CreateObjectMapping: 0.069200 ms MarkObjects: 2.013400 ms  DeleteObjects: 0.339900 ms)
-
 ========================================================================
 Received Import Request.
-  Time since last request: 371.604509 seconds.
-  path: Assets/Left Hand Presence.prefab
-  artifactKey: Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Left Hand Presence.prefab using Guid(d5f45d2c025faad4bb84f9c7b8cda292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7c6d4210a8095e15c4878048628c1e') in 0.028484 seconds
-  Import took 0.033847 seconds .
+  Time since last request: 396.689014 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(3cf543d5155670045887fa8838407b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(3cf543d5155670045887fa8838407b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92af55626dca6223c787fd51fdbffbf8') in 0.036448 seconds
+  Import took 0.046664 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.275760 seconds.
-  path: Assets/right Hand Presence .prefab
-  artifactKey: Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/right Hand Presence .prefab using Guid(2cbc3215a5e53aa4dbd30cf1fcb6e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cad41621d1b7867b77a80bca46f06f') in 0.009959 seconds
-  Import took 0.014232 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005320 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pauwe\Documents\3D_DEV_EXAMEN\3D_DEV_GAME\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.744 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.1 MB.
-System memory in use after: 128.0 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3189.
-Total: 3.019200 ms (FindLiveObjects: 0.335700 ms CreateObjectMapping: 0.067900 ms MarkObjects: 2.278400 ms  DeleteObjects: 0.336200 ms)
+  Time since last request: 0.000366 seconds.
+  path: Assets/Materials/ReticleBase.mat
+  artifactKey: Guid(00db596a4dd364e45bc9e65407fb788f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ReticleBase.mat using Guid(00db596a4dd364e45bc9e65407fb788f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcd502a841cf517162f24386a1cc7b6') in 0.051776 seconds
+  Import took 0.059696 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
