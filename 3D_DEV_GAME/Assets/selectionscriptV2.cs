@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class selectionmanager : MonoBehaviour
+public class selectionscriptV2 : MonoBehaviour
 {
     [SerializeField] private Material highlightMaterial;
     [SerializeField] private Material defaultMaterial;
+    
 
+   
 
     public Text score;
     private Transform _selection;
@@ -15,7 +17,7 @@ public class selectionmanager : MonoBehaviour
     public float distance;
     private string standardText = "/9 Exams Collected";
 
-    
+
 
     // Start is called before the first frame update
     void Start()
