@@ -2,16 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Diagnostics;
+using System.IO;
+
 
 public class endGameCheck : MonoBehaviour
 {
     // Start is called before the first frame update
     public Text score;
     private string tempNum;
-
+    private Stopwatch timer;
+    private string path = "Assets/Resources/Highscores.txt";
     void Start()
     {
-
+        timer = new Stopwatch();
+        timer.Start();
+        StreamWriter writer = new StreamWriter(path, true);
     }
 
     // Update is called once per frame
@@ -20,12 +26,17 @@ public class endGameCheck : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("colided");
-        if (score.text.Substring(0, 1) == "9")
+        StreamWriter writer = new StreamWriter(path, true);
+        UnityEngine.Debug.Log("colided");
+        if (score.text.Substring(0, 1) == "1")
         {
+            string time = timer.Elapsed.ToString();
+            timer.Stop();
             tempNum = score.text.Substring(0, 1);
             score.fontSize = 40;
-            score.text = "Congratulations, you WON!\nPress q to quit.";
+            score.text = "Congratulations, you WON!\nPress q to quit.\n" + time;
+            writer.WriteLine("\n" + time );
+            writer.Close();
         }
         else
         {
@@ -39,7 +50,7 @@ public class endGameCheck : MonoBehaviour
     {
         if (Input.GetKey("q") && score.text.Substring(0,1) == "C")
         {
-            UnityEditor.EditorApplication.ExitPlaymode();
+            //UnityEditor.EditorApplication.ExitPlaymode();
         }
     }
 
