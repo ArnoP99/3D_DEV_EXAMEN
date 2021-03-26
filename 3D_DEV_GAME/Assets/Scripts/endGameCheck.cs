@@ -4,25 +4,53 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Diagnostics;
 using System.IO;
+using UnityEngine.XR;
+using UnityEditor;
+
+
 
 
 public class endGameCheck : MonoBehaviour
 {
     // Start is called before the first frame update
     public Text score;
+    public InputDeviceCharacteristics ControllerCharacteristics;
     private string tempNum;
     private Stopwatch timer;
     private string path = "Assets/Resources/Highscores.txt";
+   
+    List<InputDevice> devices = new List<InputDevice>();
+
+   
+
+
     void Start()
     {
         timer = new Stopwatch();
         timer.Start();
         StreamWriter writer = new StreamWriter(path, true);
+        InputDevices.GetDevicesWithCharacteristics(ControllerCharacteristics, devices);
+        var desiredCharacteristics = UnityEngine.XR.InputDeviceCharacteristics.HeldInHand | UnityEngine.XR.InputDeviceCharacteristics.Left | UnityEngine.XR.InputDeviceCharacteristics.Controller;
+        UnityEngine.XR.InputDevices.GetDevicesWithCharacteristics(desiredCharacteristics, devices);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        foreach (var device in devices)
+        {
+            bool buttonPressed;
+            if(device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.primaryButton , out buttonPressed ) && buttonPressed)
+            {
+                UnityEngine.Debug.Log("Exit");
+                Application.Quit();
+            }
+        }
+
+
+
+       
     }
     private void OnTriggerEnter(Collider other)
     {
