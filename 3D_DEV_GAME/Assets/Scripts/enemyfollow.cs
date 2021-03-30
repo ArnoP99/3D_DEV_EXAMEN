@@ -19,12 +19,4 @@ public class enemyfollow : MonoBehaviour
     {
         enemy.SetDestination(Player.position);
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.gameObject.tag == "Player") { 
-        Debug.Log("gameover");
-        SceneManager.LoadScene("MainScene");
-        }
-    }
 }
