@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class enemyfollow : MonoBehaviour
 {
@@ -17,5 +18,13 @@ public class enemyfollow : MonoBehaviour
     void Update()
     {
         enemy.SetDestination(Player.position);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Player") { 
+        Debug.Log("gameover");
+        SceneManager.LoadScene("MainScene");
+        }
     }
 }
