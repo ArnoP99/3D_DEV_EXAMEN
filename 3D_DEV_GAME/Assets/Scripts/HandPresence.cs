@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
@@ -12,10 +11,24 @@ public class HandPresence : MonoBehaviour
     private GameObject spawnedHandModel;
     private Animator handAnimator;
 
-    // Start is called before the first frame update
     void Start()
     {
         TryInitialize();
+    }
+
+
+    void Update()
+    {
+        if (!targetDevice.isValid)
+        {
+            TryInitialize();
+        }
+        else
+        {
+            spawnedHandModel.SetActive(true);
+            UpdateHandAnimation();
+        }
+
     }
 
     void TryInitialize()
@@ -38,7 +51,7 @@ public class HandPresence : MonoBehaviour
 
     void UpdateHandAnimation()
     {
-        if(targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
+        if (targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
         {
             handAnimator.SetFloat("Trigger", triggerValue);
         }
@@ -58,18 +71,4 @@ public class HandPresence : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (!targetDevice.isValid)
-        {
-            TryInitialize();
-        }
-        else
-        {
-            spawnedHandModel.SetActive(true);
-            UpdateHandAnimation();
-        }
-      
-    }
 }

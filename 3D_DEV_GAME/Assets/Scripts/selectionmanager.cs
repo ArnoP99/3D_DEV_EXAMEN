@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,21 +7,18 @@ public class selectionmanager : MonoBehaviour
     [SerializeField] private Material defaultMaterial;
 
 
-    public Text score;
     private Transform _selection;
     private int scoreStart = 0;
-    public float distance;
     private string standardText = "/9 Exams Collected";
 
-    
+    public float distance;
+    public Text score;
 
-    // Start is called before the first frame update
     void Start()
     {
         score.text = scoreStart.ToString() + standardText;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (_selection != null)
@@ -32,7 +27,6 @@ public class selectionmanager : MonoBehaviour
             selectionRenderer.material = defaultMaterial;
             _selection = null;
         }
-
 
         var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;

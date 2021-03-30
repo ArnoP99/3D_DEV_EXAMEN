@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
@@ -12,18 +10,13 @@ public class PatrolAI : MonoBehaviour
     public Transform Player;
     public Transform[] points;
     public Collider box;
-    private int destPoint = 0;
+
     private NavMeshAgent agent;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-
-        // Disabling auto-braking allows for continuous movement
-        // between points (ie, the agent doesn't slow down as it
-        // approaches a destination point).
         agent.autoBraking = true;
-
         GotoNextPoint();
     }
 
@@ -36,13 +29,11 @@ public class PatrolAI : MonoBehaviour
             bool patrol = false;
             bool follow = (dist < FollowDistance);
 
-
             if (follow)
             {
                 agent.SetDestination(Player.transform.position);
             }
             patrol = !follow && points.Length > 0;
-
 
             if (patrol)
             {
@@ -52,13 +43,11 @@ public class PatrolAI : MonoBehaviour
         }
     }
 
-
     void GotoNextPoint()
     {
         if (points.Length > 0)
         {
             agent.destination = points[Random.Range(0, 43)].position;
-
         }
     }
 
