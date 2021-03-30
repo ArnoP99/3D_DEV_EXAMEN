@@ -16,7 +16,6 @@ public class HandPresence : MonoBehaviour
         TryInitialize();
     }
 
-
     void Update()
     {
         if (!targetDevice.isValid)
@@ -28,7 +27,6 @@ public class HandPresence : MonoBehaviour
             spawnedHandModel.SetActive(true);
             UpdateHandAnimation();
         }
-
     }
 
     void TryInitialize()
@@ -68,7 +66,5 @@ public class HandPresence : MonoBehaviour
         {
             handAnimator.SetFloat("Grip", 0);
         }
-
     }
-
 }

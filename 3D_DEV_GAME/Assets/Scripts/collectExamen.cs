@@ -17,22 +17,15 @@ public class collectExamen : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("colide");
         if (other.gameObject.CompareTag("Examen"))
         {
-            Debug.Log("colide with exam");
             other.gameObject.SetActive(false);
-            Debug.Log(other.gameObject.name);
             scoreStart++;
             score.text = scoreStart.ToString() + standardText;
         }
         else if (other.gameObject.tag == "patroler")
         {
-            Debug.Log("gameover");
             SceneManager.LoadScene("MainScene");
         }
     }
 }
-
-
-
